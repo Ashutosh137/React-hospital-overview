@@ -1,0 +1,58 @@
+.login {
+  position: absolute;
+  margin-left: 88vw;
+}
+
+.login input {
+  padding: 5px;
+  width: 100px;
+}
+
+.hospital h1 {
+  position: absolute;
+  background-color: rgb(197, 241, 227) transparent;
+  margin: 8vw;
+  padding: 5px;
+  margin-top: 8vh;
+  text-transform: capitalize;
+  font-family: "Courier New", Courier, monospace;
+  z-index: 1;
+}
+
+.navbar {
+  margin: 30px;
+  padding-top: 1vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  overflow: hidden;
+  width: 10%;
+  border: 2px solid rgb(255, 247, 247);
+  border-radius: 40px;
+  padding: 2px;
+}
+
+.navbar ul {
+  text-align: center;
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar img {
+  margin-right: 40vw;
+  width: 100px;
+  height: 100px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  font-size: x-large;
+  font-weight: 800;
+}
