@@ -1,5 +1,4 @@
 import React from "react";
-import './navbar.css';
 import { Link } from "react-router-dom";
 class Navbar extends React.Component {
   render() {
@@ -14,9 +13,9 @@ class Navbar extends React.Component {
                   <Link to="/about">services</Link>
                 </li>
                 <li className=" mx-3 font-xl cursor-pointer">
-                  <Link to="/departments">Departments</Link></li>
+                  <Link to="/department">Departments</Link></li>
                 <li className=" mx-3 font-xl cursor-pointer">
-                  <a>Gallary</a>
+                  <Link to="/gallary">Gallary</Link>
                 </li>
                 <li className=" mx-3 font-xl cursor-pointer">
                   <a>Contact us</a>

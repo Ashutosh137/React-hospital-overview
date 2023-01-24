@@ -1,8 +1,9 @@
 import './App.css';
 import Navbar from './components/navbar/navbar';
-import HOme from './components/home/content';
+import Home from './components/home/content';
 import Footer from './components/footer/footer';
 import About from './components/about/about';
+import Department from './components/department/department';
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,8 +24,15 @@ function App() {
           )}}
           />
           <Route exact path="/">
-          <HOme/>
+          <Home/>
           </Route>
+          <Route path="/department" render={()=>{
+          return(
+            <>
+            <Department />
+            </>
+          )}}
+          />
         </Switch>
     </Router>
     <Footer/>
