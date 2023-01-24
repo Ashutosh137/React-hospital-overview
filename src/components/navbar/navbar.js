@@ -2,39 +2,27 @@ import React from "react";
 import './navbar.css';
 import { Link } from "react-router-dom";
 class Navbar extends React.Component {
-  state = {};
   render() {
     return (
-      <div className="header">
-        <div className="navbar">
-          <div className="navbar">
-            <nav>
-              <ul>
-                <li>
-                  <img
-                    className="logo"
-                    src="new folder/about-frame-img.png"
-                    alt="net error"
-                  />
-                </li>
-                <li>
+            <nav className="flex justify-between m-auto text-center capitalize text-black text-2xl py-4 bg-sky-600">
+              <div className="px-10">hospital name</div>
+              <ul className="flex mx-4 ">
+                <li className=" mx-3 font-xl cursor-pointer">
                   <Link to="/">Home</Link>
                 </li>
-                <li>
-                  <Link to="/about">About</Link>
+                <li className=" mx-3 font-xl cursor-pointer">
+                  <Link to="/about">services</Link>
                 </li>
-                <li><Link to="/departments">departments</Link></li>
-                <li>
-                  <a to="#gallary">gallary</a>
+                <li className=" mx-3 font-xl cursor-pointer">
+                  <Link to="/departments">Departments</Link></li>
+                <li className=" mx-3 font-xl cursor-pointer">
+                  <a>Gallary</a>
                 </li>
-                <li>
-                  <a to="#contact">contact us</a>
+                <li className=" mx-3 font-xl cursor-pointer">
+                  <a>Contact us</a>
                 </li>
               </ul>
             </nav>
-          </div>
-        </div>
-      </div>
     );
   }
 }

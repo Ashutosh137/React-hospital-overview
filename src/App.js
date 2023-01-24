@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/navbar/navbar';
-import Content1 from './components/home/content';
+import HOme from './components/home/content';
 import Footer from './components/footer/footer';
 import About from './components/about/about';
 import {
@@ -23,7 +23,7 @@ function App() {
           )}}
           />
           <Route exact path="/">
-          <Content1/>
+          <HOme/>
           </Route>
         </Switch>
     </Router>
