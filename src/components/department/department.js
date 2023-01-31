@@ -6,7 +6,7 @@ export const Department = (props) => {
       <h1 className="text-center text-3xl font-semibold py-10 m-auto">
         our departments
       </h1>
-      <div className="flex overflow-x-scroll space-x-10 px-10">
+      <div className="flex  overflow-x-scroll space-x-10  px-10">
         {props.department.map((depart) => {
           return <Depart depart={depart} />;
         })}
