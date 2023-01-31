@@ -33,7 +33,9 @@ const Navbar = (props) => {
           <a href="#">Contact us</a>
         </li>
         <li className="cursor-pointer">
-          <button className="bg-red-300 border-2 rounded-2xl px-1 border-black">make an apointment</button>
+          <button className="bg-red-300 border-2 rounded-2xl px-1 border-black">
+            make an apointment
+          </button>
         </li>
       </ul>
     </nav>

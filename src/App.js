@@ -3,15 +3,15 @@ import Navbar from "./components/navbar/navbar";
 import Home from "./components/home/home";
 import Footer from "./components/footer/footer";
 import About from "./components/about/about";
-import {Department}from "./components/department/department";
+import { Department } from "./components/department/department";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   let hospital = [
     {
-      name: "your hospital name",
+      name: " hospital name",
       contact_Number: "1234567890",
       email: "info.123@gmail.com",
-    }
+    },
   ];
   let department = [
     {
@@ -33,10 +33,11 @@ function App() {
     {
       name: "Urology",
       desc: "The Department of Urology evaluates and treats a vast range of Urologic disorders. Urology is…",
-    },{
+    },
+    {
       name: "Nephrology",
       desc: "Nephrology is a medical branch that covers the diagnosis, treatment and management of kidney diseases.",
-    }
+    },
   ];
 
   return (
@@ -44,15 +45,15 @@ function App() {
       <Router>
         <Navbar name={hospital[0].name} />
         <Routes>
+          <Route path="/about" element={<About />} />
           <Route
-            path="/about"
-            element={<About/>}
-          />
-          <Route exact path="/" element={<Home name={hospital[0].name} />}>
-          </Route>
+            exact
+            path="/"
+            element={<Home name={hospital[0].name} />}
+          ></Route>
           <Route
             path="/department"
-            element={<Department department={department}/>}
+            element={<Department department={department} />}
           />
         </Routes>
       </Router>
