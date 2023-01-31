@@ -3,11 +3,29 @@ class About extends React.Component {
     state = {  } 
     render() { 
         return (
-            <section className="section" id="home">
-              <p>
-                doloremque lor.</p>
-              <input type="button" defaultValue="About us" href="#about" />
-          </section>
+          <about className="home text-center mt-10 px-40" id="home">
+          <div className="about m-auto px-1">
+            <h1 className="text-xl capitalize sm:text-4xl">who we are</h1>
+            <p className="px-3 text-xs sm:text-xl sm:px-20">
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores, animi sapiente! Est magni ea maioreslorem Lorem ipsum
+              dolor sit, amet consectetur adipisicing elit. Molestiae officia
+              illaepe eius! Soluta,Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Asperiores, animi sapiente! Est magni ea
+              maioreslorem Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit. Molestiae officia illaepe eius! Soluta, Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Aspernatur doloribus consecte
+              tempora rem quaeratLorem ipsum dolor sit amet consectetur
+              adipisicing elit. Asperiores, animi sapiente! Est magni ea
+              maioreslorem Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit. Molestiae officia illaepe eius! Soluta, Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Aspernatur doloribus consecte
+              tempora rem quaerat Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Aspernatur doloribus consecte tempora rem quaerat
+              quia aliquam repellat distinctio, optio molestiae illo doloremque.
+            </p>
+          </div>
+        </about>
         );
     }
 }
