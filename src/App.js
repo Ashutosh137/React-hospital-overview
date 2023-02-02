@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/navbar";
 import Home from "./components/home/home";
 import Footer from "./components/footer/footer";
 import About from "./components/about/about";
+<<<<<<< HEAD
 import Contact from "./components/contact/contact";
 import { Department } from "./components/department/department";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -10,16 +11,27 @@ function App() {
  
 
   let hospital = 
+=======
+import { Department } from "./components/department/department";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+function App() {
+  let hospital = [
+>>>>>>> 080fb529612b53533325313675df16a1396631c3
     {
       name: " hospital name",
       contact_Number: "1234567890",
       email: "info.123@gmail.com",
+<<<<<<< HEAD
       facebook:"https://www.facebook.com/",
       instragram:"https://www.instragram.com",
       twitter:"https://twitter.com/",
       linkdin:"https://www.linkdin.com"
     }
   ;
+=======
+    },
+  ];
+>>>>>>> 080fb529612b53533325313675df16a1396631c3
   let department = [
     {
       name: "cardiology",
@@ -50,6 +62,7 @@ function App() {
   return (
     <>
       <Router>
+<<<<<<< HEAD
         <Navbar name={hospital.name} />
         <Routes>
         <Route path="/About" element={<About />} />
@@ -58,6 +71,15 @@ function App() {
             exact
             path="/"
             element={<Home name={hospital.name} />}
+=======
+        <Navbar name={hospital[0].name} />
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route
+            exact
+            path="/"
+            element={<Home name={hospital[0].name} />}
+>>>>>>> 080fb529612b53533325313675df16a1396631c3
           ></Route>
           <Route
             path="/department"
@@ -66,7 +88,13 @@ function App() {
         </Routes>
       </Router>
       <Footer
+<<<<<<< HEAD
         hospital={hospital}
+=======
+        contact={hospital[0].contact_Number}
+        name={hospital[0].name}
+        email={hospital[0].email}
+>>>>>>> 080fb529612b53533325313675df16a1396631c3
       />
     </>
   );
