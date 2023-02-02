@@ -1,6 +1,5 @@
 import React from "react";
 class About extends React.Component {
-  state = {};
   render() {
     return (
       <about className="home text-center mt-10 px-40" id="home">
