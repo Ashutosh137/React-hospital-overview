@@ -25,7 +25,6 @@ class About extends React.Component {
                   of doctors and nurses, who must make life-and-death decisions
                   on their behalf. But at least one person in every hospital is
                   able to help: the writer.
-                  <br />
                   <button className=" p-1 border-2 m-auto my-2  border-black border-double rounded-xl bg-sky-100">
                     <Link to="/about">About us</Link>
                   </button>
@@ -55,7 +54,6 @@ class About extends React.Component {
                   services, no matter what stage you're in. From diagnosis to
                   diagnosis and treatment up to discharge. We can help you with
                   any aspect of your health care needs.
-                  <br />
                   <button className=" p-1 border-2 m-auto my-2  border-black border-double rounded-xl bg-sky-100">
                     <Link to="/about">About us</Link>
                   </button>
@@ -88,7 +86,6 @@ class About extends React.Component {
                   to meet your needs. Whether you need emergency care or routine
                   medical attention, our team of health care professionals will
                   help you get back to normal as quickly as possible.
-                  <br />
                   <button className=" p-1 border-2 m-auto my-2  border-black border-double rounded-xl bg-sky-100">
                     <Link to="/about">About us</Link>
                   </button>
@@ -99,7 +96,7 @@ class About extends React.Component {
 
           <section>
             <div className="section  bg-white p-3 flex text-center">
-              <div className="w-full m-auto">
+              <div className="w-full ml-5">
                 <h1 className="text-xl font-semibold capitalize sm:text-2xl">
                   more
                 </h1>
@@ -111,7 +108,6 @@ class About extends React.Component {
                   countries, there is some form of public health insurance that
                   provides benefits if you want to pay for part or all of your
                   health care costs - this often includes hospital visits.
-                  <br />
                   <button className=" p-1 border-2 m-auto my-2  border-black border-double rounded-xl bg-sky-100">
                     <Link to="/about">About us</Link>
                   </button>
