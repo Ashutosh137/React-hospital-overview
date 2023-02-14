@@ -9,7 +9,7 @@ import { Department } from "./components/department/department";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   let hospital = {
-    name: " hospital name",
+    name: " ananta hospital",
     contact_Number: "1234567890",
     email: "mr.luckysharma7@gmail.com",
     facebook: "https://www.facebook.com/",
@@ -21,14 +21,6 @@ function App() {
     {
       name: "cardiology",
       desc: "The Cardiology department provides complete cardiac care round-the-clock . This includes both elective and emergency…",
-    },
-    {
-      name: "cardiology",
-      desc: "The Cardiology department provides complete cardiac care round-the-clock . This includes both elective and emergency…",
-    },
-    {
-      name: "cardiology",
-      desc: "Advanced Neuro Care Institute of Hospital is an integrated institute with a dedicated…",
     },
     {
       name: "neurosurgery",
@@ -52,11 +44,8 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/gallary" element={<Gallary />} />
-          <Route exact path="/" element={<Home name={hospital.name} />}></Route>
-          <Route
-            path="/department"
-            element={<Department department={department} />}
-          />
+          <Route path="/" element={<Home name={hospital.name} />}></Route>
+          <Route path="/department" element={<Department department={department} />}/>
         </Routes>
       </Router>
       <Footer hospital={hospital} />

@@ -1,13 +1,13 @@
 import React from "react";
 const Footer = (props) => {
   return (
-    <footer className="footar flex capitalize text-center text-xs sm:text-xs xl:text-xl bg-black text-white">
+    <footer className="footar pb-4 flex capitalize text-center text-xs sm:text-xs xl:text-xl bg-black text-white">
       <div className="contact flex-col flex m-auto space-y-1 mt-1 px-1">
         <h2 className="text-sm mt-3 border-b border-b-stone-100 sm:text-2xl">
           contact us on
         </h2>
         <label>call {props.hospital.contact_Number}</label>
-        <a>{props.hospital.email}</a>
+        <a href="/">{props.hospital.email}</a>
       </div>
       <div className="location flex-col flex m-auto mt-1">
         <h2 className="text-sm mt-3 border-b border-b-stone-100 sm:text-2xl">

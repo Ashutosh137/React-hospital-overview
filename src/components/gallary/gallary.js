@@ -4,11 +4,22 @@ class Gallary extends React.Component {
   state = {};
   render() {
     return (
-      <div className="img flex-col">
-        <img src="/New-folder/about-frame-img.png" alt="" className="" />
-        <img src="/New-folder/about-frame-img.png" alt="" className="" />
-        <img src="/New-folder/about-frame-img.png" alt="" className="" />
-        <img src="/New-folder/about-frame-img.png" alt="" className="" />
+      <div className="img flex overflow-scroll justify-between">
+        <img
+          alt="net error"
+          className="h-full w-1/3  "
+          src={"/New-folder/bruno-rodrigues-279xIHymPYY-unsplash.jpg"}
+        />
+        <img
+          alt="net error"
+          className="h-full w-1/3 "
+          src={"/New-folder/bruno-rodrigues-279xIHymPYY-unsplash.jpg"}
+        />
+        <img
+          alt="net error"
+          className="h-full w-1/3 "
+          src={"/New-folder/bruno-rodrigues-279xIHymPYY-unsplash.jpg"}
+        />
       </div>
     );
   }

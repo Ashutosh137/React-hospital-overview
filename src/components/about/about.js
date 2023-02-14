@@ -8,7 +8,7 @@ class About extends React.Component {
         <section className="section container text-center my-10 ">
           <section>
             <div className="section bg-white p-3 flex text-center">
-              <div className="images  overflow-hidden w-full  border-black border-2 rounded-tl-xl rounded-br-xl hover:opacity-90">
+              <div className="images  overflow-hidden w-full  m-1 sm:m-5  border-black border-2 rounded-tl-xl rounded-br-xl hover:opacity-90">
                 <img
                   alt="net error"
                   className="h-full"
@@ -16,8 +16,8 @@ class About extends React.Component {
                 />
               </div>
               <div className="w-full m-auto">
-                <h1 className="text-basic font-semibold capitalize sm:text-2xl">
-                  who we are..
+                <h1 className="text-xl font-semibold my-2 capitalize sm:text-2xl">
+                  we
                 </h1>
                 <p className="px-3 text-left text-xs sm:text-xl sm:px-20 py-1">
                   The hospital is a place of turmoil, where families try to find
@@ -37,7 +37,7 @@ class About extends React.Component {
           <section>
             <div className="section  bg-white p-3 flex text-center">
               <div className="w-full m-auto">
-                <h1 className="text-basic font-semibold capitalize sm:text-2xl">
+                <h1 className="text-xl font-semibold capitalize sm:text-2xl">
                   who we are..
                 </h1>
                 <p className="px-3 text-left text-xs sm:text-xl sm:px-20 py-1">
@@ -61,7 +61,7 @@ class About extends React.Component {
                   </button>
                 </p>
               </div>
-              <div className="images w-full overflow-hidden border-black border-2 rounded-xl">
+              <div className="images w-full  m-1 sm:m-5 overflow-hidden border-black border-2 rounded-xl">
                 <img
                   alt="net error"
                   className="h-full "
@@ -72,7 +72,7 @@ class About extends React.Component {
           </section>
           <section>
             <div className="section bg-white p-3 flex text-center">
-              <div className="images  overflow-hidden w-full  border-black border-2 rounded-tl-xl rounded-br-xl hover:opacity-90">
+              <div className="images  overflow-hidden w-full  m-1 sm:m-5  border-black border-2 rounded-tl-xl rounded-br-xl hover:opacity-90">
                 <img
                   alt="net error"
                   className="h-full"
@@ -80,8 +80,8 @@ class About extends React.Component {
                 />
               </div>
               <div className="w-full m-auto">
-                <h1 className="text-basic font-semibold capitalize sm:text-2xl">
-                  who we are..
+                <h1 className="text-xl font-semibold capitalize sm:text-2xl">
+                  our services
                 </h1>
                 <p className="px-3 text-left text-xs sm:text-xl sm:px-20 py-1">
                   hospital services are available 24 hours a day, 7 days a week
@@ -100,8 +100,8 @@ class About extends React.Component {
           <section>
             <div className="section  bg-white p-3 flex text-center">
               <div className="w-full m-auto">
-                <h1 className="text-basic font-semibold capitalize sm:text-2xl">
-                  who we are..
+                <h1 className="text-xl font-semibold capitalize sm:text-2xl">
+                  more
                 </h1>
                 <p className="px-3 text-left text-xs sm:text-xl sm:px-20 py-1">
                   Hospitals provide a range of services to patients, including
@@ -117,7 +117,7 @@ class About extends React.Component {
                   </button>
                 </p>
               </div>
-              <div className="images w-full overflow-hidden  border-black border-2 rounded-xl">
+              <div className="images w-full  m-1 sm:m-5 overflow-hidden  border-black border-2 rounded-xl">
                 <img
                   alt="net error"
                   className="h-full"
