@@ -1,16 +1,18 @@
-import React from "react";
+import React ,{useContext} from "react";
 import { Link } from "react-router-dom";
+import AuthContext from "../../data/data";
 const Navbar = (props) => {
   const btn = document.querySelector(".bi-list");
   const btn1 = document.querySelector(".bi-x");
   const menu = document.querySelector(".menu");
+  const name=useContext(AuthContext);
   return (
     <nav
       className="navbar flex text-center justify-between capitalize space-x-0
        text-black text-xsborder-black sm:text-xl xl:text-2xl py-4 bg-transparent opacity-100"
     >
       <div className="font-bold m-auto p-2 text-2xl sm:text-3xl xl:text-4xl">
-        <Link to="/">{props.name}</Link>
+        <Link to="/">{name.hospital.name}</Link>
       </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -65,16 +67,8 @@ const Navbar = (props) => {
             Departments
           </Link>
         </li>
-        <li className="cursor-pointer">
-          <Link
-            className="border-black hover:border-b-2 hover:text-black"
-            to="/gallary"
-          >
-            Gallary
-          </Link>
-        </li>
         <li className="cursor-pointer text-black">
-          <button className="bg-blue-300 border-2 hover:bg-white capitalize rounded-2xl px-2border-black">
+          <button className="bg-blue-300 border-2 hover:bg-white capitalize rounded-2xl px-2 border-black">
             <Link to="/Contact"> appointment</Link>
           </button>
         </li>

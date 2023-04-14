@@ -1,12 +1,14 @@
-import React from "react";
+import React, {useContext} from "react";
+import AuthContext from "../../data/data";
 import { Link } from "react-router-dom";
-const section = (props) => {
+const Home = (props) => {
+  const name= useContext(AuthContext);
   return (
     <>
       <section className="section container align-middle text-center my-10 ">
         <section className="m-2">
           <h1 className="text-xl mx-10 font-semibold capitalize my-8 border-b-2 sm:text-4xl">
-            welcome to {props.name}
+            welcome to {name.hospital.name}
           </h1>
           <div className="section bg-white p-3 flex text-center">
             <div className="images overflow-hidden w-full  m-1 sm:m-5 border-black border-2 rounded-tl-xl rounded-br-xl hover:opacity-90">
@@ -61,4 +63,4 @@ const section = (props) => {
     </>
   );
 };
-export default section;
+export default Home;
