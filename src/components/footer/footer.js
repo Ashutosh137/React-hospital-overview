@@ -6,8 +6,8 @@ const Footer = (props) => {
         <h2 className="text-sm mt-3 border-b border-b-stone-100 sm:text-2xl">
           contact us on
         </h2>
-        <label>call {props.hospital.contact_Number}</label>
-        <a href="/">{props.hospital.email}</a>
+        <a href="call:7877997488">call {props.hospital.contact_Number}</a>
+        <a href="mailto:mr.luckysharma7@gmail.com">{props.hospital.email}</a>
       </div>
       <div className="location flex-col flex m-auto mt-1">
         <h2 className="text-sm mt-3 border-b border-b-stone-100 sm:text-2xl">

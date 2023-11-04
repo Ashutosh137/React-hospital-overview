@@ -5,7 +5,7 @@ const section = (props) => {
     <>
       <section className="home sm:mx-5 flex-col align-middle space-y-20 text-center my-10 ">
 
-        <div className="img border-2 my-5 rounded-xl  p-5 shadow h-max">
+        <div className="img border-2 mb-5 rounded-xl  sm:p-5  shadow h-max">
           <div className="flex-col text-zinc-100 my-3">
             <h1 className="text-xl border-b-2 border-stone-100 py-2 my-1 capitalize rounded-4xl sm:text-2xl">
               <b className='mx-3 font-serif first-letter:text-5xl'>MirrorMed Hospital - </b> Your Partner in Health
@@ -13,8 +13,8 @@ const section = (props) => {
             <h3 className="text-sky-800 bg-light opacity-80 px-4 sm:px-12 py-1 my-3 font-semibold text-base sm:text-xl font-mono rounded-xl w-10/12 m-auto ">Providing high-quality care to our community for over 20 years.</h3>
           </div>
 
-          <div className="sm:my-5 text-zinc-100 p-3 flex text-center">
-            <p className="  font-serif w-full sm:w-6/12   ml-auto text-left text-xs sm:text-xl sm:px-10 py-1">
+          <div className="sm:my-16 text-zinc-100 p-3 flex text-center">
+            <p className="  font-serif w-full sm:w-6/12  ml-auto text-left text-xs sm:text-xl sm:px-10 ">
               MirrorMed Hospital is a leading provider of healthcare services in our community. We offer a wide range of services, including primary care, specialty care, and urgent care. We are committed to providing our patients with the highest quality care possible.
               <br />
               <button className="py-1  outline outline-neutral-400 border-2 mt-4  border-black border-double rounded-xl  bg-sky-900 text-white sm:px-5 hover:bg-sky-800 transition-all ease ">
@@ -24,7 +24,7 @@ const section = (props) => {
           </div>
         </div>
 
-        <div className="img border-2  my-5 rounded-xl  p-5 shadow h-full">
+        <div className="img border-2  my-5 rounded-xl  sm:p-5  shadow h-full">
           <div className="flex-col my-3">
             <h1 className="text-xl font-serif  border-b-2 border-stone-100 py-2 my-1 capitalize rounded-4xl sm:text-2xl">
               Our Mission
@@ -49,7 +49,7 @@ const section = (props) => {
 
         </div>
 
-        <div className="img border-2 my-5 rounded-xl  p-5 shadow h-full">
+        <div className="img border-2 my-5 rounded-xl  sm:p-5  shadow h-full">
           <div className="flex-col my-3">
             <h1 className="text-xl font-serif  border-b-2 border-stone-100 py-2 my-1 capitalize rounded-4xl sm:text-2xl">
               Our Values
@@ -73,7 +73,7 @@ const section = (props) => {
           </div>
         </div>
 
-        <div className="img border-2 my-5 rounded-xl  p-5 shadow h-full">
+        <div className="img border-2 my-5 rounded-xl  sm:p-5  shadow h-full">
           <div className="flex-col my-3">
             <h1 className="text-xl font-serif  border-b-2 border-stone-100 py-2 my-1 capitalize rounded-4xl sm:text-2xl">
               Our Services
@@ -109,7 +109,7 @@ const section = (props) => {
           </div>
         </div>
 
-        <div className="img border-2 my-5 rounded-xl  p-5 shadow h-full">
+        <div className="img border-2 my-5 rounded-xl  sm:p-5  shadow h-full">
           <div className="flex-col my-3">
             <h1 className="text-xl font-serif  border-b-2 border-stone-100 py-2 my-1 capitalize rounded-4xl sm:text-2xl">
               Why Choose MirrorMed Hospital?
@@ -142,7 +142,7 @@ const section = (props) => {
           </div>
         </div>
 
-        <div className="img border-2 my-5 rounded-xl  p-5 shadow h-full">
+        <div className="img border-2 my-5 rounded-xl  sm:p-5  shadow h-full">
           <div className="flex-col my-3">
             <h1 className="text-xl font-serif  border-b-2 border-stone-100 py-2 my-1 capitalize rounded-4xl sm:text-2xl">
               our prospertus

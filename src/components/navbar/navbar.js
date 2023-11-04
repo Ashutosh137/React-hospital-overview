@@ -11,7 +11,7 @@ const Navbar = (props) => {
       className="navbar sm:flex-row flex-col text-center justify-between capitalize space-x-0
        text-black text-xsborder-black sm:text-xl space-y-3 xl:text-2xl py-4 bg-transparent opacity-100"
     >
-      <div className="font-bold mb-5 flex space-x-1 m-auto p-2 text-2xl sm:text-3xl">
+      <div className="font-bold sm:mb-5 flex space-x-1 m-auto p-2 text-2xl sm:text-3xl">
          <ChairIcon style={{ fontSize: '2rem' }} />
         <Link to="/">{props.name} hospital</Link>
       </div>

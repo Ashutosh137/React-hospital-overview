@@ -21,7 +21,7 @@ function App() {
 
 
   return (<>
-    <div className="block mx-5 sm:mx-5 ">
+    <div className="block sm:mx-10 p-2 ">
       <Router>
 
         <Navbar name={hospital.name} />

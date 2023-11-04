@@ -3,16 +3,17 @@ function Contact(props) {
   return (
     <>
       <div className="contact container text-left capitalize mb-10 ">
-      <h1 className="border-b-2  border-black text-3xl capitalize my-3">
+      <h1 className="border-b-2 py-2  border-black text-3xl capitalize my-3">
           contact us
         </h1>
         <div className="flex flex-wrap">
         <img
               alt="net error"
               className="w-full max-w-lg  border-black border-2 my-5 rounded-xl p-2"
-              src={"/New-folder/bruno-rodrigues-279xIHymPYY-unsplash.jpg"}
+              src={"/New-folder/camilo-jimenez-vGu08RYjO-s-unsplash.jpg"}
             />
-        <form onSubmit={()=>{
+        <form onSubmit={(e)=>{
+          e.preventDefault()
           alert(" your response wil be recorded , you will contact by our team shortly")}} 
           className="flex flex-col mx-auto w-50">
              <h1 className="text-center my-5 sm:text-3xl">contact us </h1>

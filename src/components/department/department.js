@@ -7,7 +7,7 @@ export const Department = (props) => {
         Department
       </h1>
       <p className="sm:text-xl text-base mx-5">
-        The Hospital Department is the biggest division of our company. We take
+        The MirrorMed Hospital Department is the biggest division of our company. We take
         care of all equipment needs and ensure that we have the right products
         at the right time.
       </p>
