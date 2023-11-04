@@ -3,40 +3,50 @@ function Contact(props) {
   return (
     <>
       <div className="contact container text-left capitalize mb-10 ">
-      <h1 className="border-b-2 border-black text-3xl capitalize my-3">
+      <h1 className="border-b-2  border-black text-3xl capitalize my-3">
           contact us
         </h1>
-        <form className="flex flex-col">
+        <div className="flex flex-wrap">
+        <img
+              alt="net error"
+              className="w-full max-w-lg  border-black border-2 my-5 rounded-xl p-2"
+              src={"/New-folder/bruno-rodrigues-279xIHymPYY-unsplash.jpg"}
+            />
+        <form onSubmit={()=>{
+          alert(" your response wil be recorded , you will contact by our team shortly")}} 
+          className="flex flex-col mx-auto w-50">
+             <h1 className="text-center my-5 sm:text-3xl">contact us </h1>
           <input
-            className="p-2 m-2 text-xl font-medium rounded"
+            className="p-2 m-2 focus:outline outline-gray-700 text-xl font-medium rounded"
             type="text"
             placeholder="Enter your name"
             required
-
-          />
+            
+            />
           <input
-            className="p-2 m-2 text-xl font-medium rounded"
+            className="p-2 m-2 focus:outline outline-gray-700 text-xl font-medium rounded"
             type="number"
-            placeholder="Your Age"
+            placeholder="Your current Age"
             required
-
-          />
+            
+            />
           <input
-            className="p-2 m-2 text-xl font-medium rounded"
+            className="p-2 m-2 focus:outline outline-gray-700 text-xl font-medium rounded"
             type="email"
             placeholder="Enter your Email Address"
             required
-
-          />
+            
+            />
           <textarea
             className="p-3 m-2 text-xl font-medium rounded"
             type="text"
             rows="4"
             placeholder="Your Quary"
             required
-          />
-          <input className="my-4 border-black border-2 bg-green-400 rounded-xl m-auto text-xl px-3" type="submit" value="submit" />
+            />
+          <input className="my-4 border-black border-2 capitalize font-semibold font-mono px-5 bg-green-400 rounded-xl m-auto text-xl px-3" type="submit" value="submit" />
         </form>
+            </div>
       </div>
     </>
   );

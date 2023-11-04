@@ -1,6 +1,7 @@
 {
-  "short_name": "hospital App",
-  "name": "Create React App Sample",
+  "short_name": "MirrorMed : A hospital",
+  "name": "hospital sample webapp",
+  "description": "a MirrorMed : A hospital  simple webapp for learning reactjs",
   "icons": [
     {
       "src": "New-folder/about-frame-img.png",
@@ -9,7 +10,7 @@
     }
   ],
   "start_url": ".",
-  "display": "standalone",
+  "display": "fullscreen",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }

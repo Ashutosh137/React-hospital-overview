@@ -1,7 +1,7 @@
 import React from "react";
 const Footer = (props) => {
   return (
-    <footer className="footar pb-4 flex capitalize text-center text-xs sm:text-xs xl:text-xl bg-black text-white">
+    <footer className="footar pb-4 flex capitalize text-center text-xs sm:text-sm xl:text-base bg-black text-white">
       <div className="contact flex-col flex m-auto space-y-1 mt-1 px-1">
         <h2 className="text-sm mt-3 border-b border-b-stone-100 sm:text-2xl">
           contact us on
@@ -13,9 +13,15 @@ const Footer = (props) => {
         <h2 className="text-sm mt-3 border-b border-b-stone-100 sm:text-2xl">
           locations
         </h2>
-        <label className="locatiion">location 1</label>
-        <label className="locatiion">location 2</label>
-        <label className="locatiion">location 3</label>
+        <label htmlFor="">MirrorMed Hospital <br />
+          123 Main Street
+          <br />
+          Anytown, CA 12345
+          <br />
+          (555) 555-5555
+        </label>
+
+
       </div>
       <div className="links flex-col flex m-auto mt-1">
         <h2 className="text-sm mt-3 border-b border-b-stone-100 sm:text-2xl">
