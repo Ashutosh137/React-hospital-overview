@@ -21,8 +21,8 @@ function App() {
 
 
   return (<>
-    <div className="block sm:mx-10 p-2 ">
       <Router>
+    <div className="block sm:mx-10 p-2 ">
 
         <Navbar name={hospital.name} />
         <Routes>
@@ -31,9 +31,9 @@ function App() {
           <Route path="/" element={<Home name={hospital.name} />}></Route>
           <Route path="/department" element={<Department department={department} />} />
         </Routes>
-      </Router>
     </div>
       <Footer hospital={hospital} />
+      </Router>
   </>
 
   );

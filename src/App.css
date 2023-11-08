@@ -1,5 +1,6 @@
 body {
   background-color: rgb(244, 218, 171,0.4);
+  
 }
 
 .home .img::before {
@@ -11,9 +12,15 @@ body {
   left: 0%;
   top: 0%;
   z-index: -1;
+
   background: url('../public/New-folder/building.jpg')  no-repeat center center/cover;
 }
 .home .img{
+  height: 75vh;
+
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.home .div{
   background-color: rgba(255, 255, 255, 0.4);
 
 }

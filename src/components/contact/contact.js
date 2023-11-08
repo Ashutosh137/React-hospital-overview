@@ -15,8 +15,8 @@ function Contact(props) {
         <form onSubmit={(e)=>{
           e.preventDefault()
           alert(" your response wil be recorded , you will contact by our team shortly")}} 
-          className="flex flex-col mx-auto w-50">
-             <h1 className="text-center my-5 sm:text-3xl">contact us </h1>
+          className="flex flex-col mx-auto w-full sm:w-1/2">
+             <h1 className="text-center my-5 sm:text-3xl"> book an appointment today!</h1>
           <input
             className="p-2 m-2 focus:outline outline-gray-700 text-xl font-medium rounded"
             type="text"
@@ -45,7 +45,7 @@ function Contact(props) {
             placeholder="Your Quary"
             required
             />
-          <input className="my-4 border-black border-2 capitalize font-semibold font-mono px-5 bg-green-400 rounded-xl m-auto text-xl px-3" type="submit" value="submit" />
+          <input className="my-4 border-black border-2 capitalize font-semibold font-mono px-5 bg-green-400 rounded-xl m-auto text-xl p-2" type="submit" value="submit" />
         </form>
             </div>
       </div>
