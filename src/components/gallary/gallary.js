@@ -11,7 +11,7 @@ class Gallary extends React.Component {
 <div className="img flex flex-wrap space-x-4 my-6  space-y-5 align-middle justify-evenly">
         {gallarphoto.map((item,index)=>{
           return <div className="w-96 h-80 outline outline-3 outline-black rounded-2xl p-2  overflow-hidden">
-            <img className="img w-full h-full hover:scale-125 transition-all ease-in-out duration-1000 rounded-3xl" src={item} alt="logo" />
+            <img className="img  border-2 border-sky-900 w-full h-full hover:scale-125 transition-all ease-in-out duration-1000 rounded-2xl" src={item} alt="logo" />
           </div>
         })}
       </div>
