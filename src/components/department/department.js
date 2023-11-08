@@ -3,7 +3,7 @@ import { Depart } from "./depart";
 export const Department = (props) => {
   return (
     <div className=" capitalize  mb-10 ">
-      <h1 className="border-b- text-2xl w-4/5 m-auto my-2 text-center sm:text-4xl  border-black  border-b-2 p-2 capitalize">
+      <h1 className="border-b-1 text-2xl w-4/5 m-auto my-2 text-center sm:text-4xl  border-black  border-b-2 p-2 capitalize">
         Department
       </h1>
       <p className="sm:text-xl text-base w-4/5 m-auto ">

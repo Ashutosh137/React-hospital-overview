@@ -6,6 +6,7 @@ import DialerSipIcon from '@mui/icons-material/DialerSip';
 import DepartureBoardIcon from '@mui/icons-material/DepartureBoard';
 import BurstModeIcon from '@mui/icons-material/BurstMode';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
+import CloseIcon from '@mui/icons-material/Close';
 
 const Navbar = (props) => {
   const [menu, setmenu] = useState('hidden')
@@ -25,7 +26,7 @@ const Navbar = (props) => {
       </div>}
       {menu==="flex" && <div onClick={()=>{
         setmenu('hidden')
-      }}><BurstModeIcon/></div>}
+      }}><CloseIcon/></div>}
       
       <div className="m-auto">
         <ul className={` md:flex ${menu} flex-row flex-wrap space-y-12`}>
