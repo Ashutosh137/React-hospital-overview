@@ -7,18 +7,18 @@ const Footer = (props) => {
         <h2 className="text-sm m-3 border-b border-b-stone-100 sm:text-2xl">
           contact us on
         </h2>
-        <div className="m-auto justify-center align-middle flex flex-col space-y-3">
-        <a className="hover:scale-125 transition-all ease-out" href="mailto:mr.luckysharma7@gmail.com">{props.hospital.email}</a>
-        <a className="hover:scale-125 transition-all ease-out" href="call:7877997488">call {props.hospital.contact_Number}</a>
+        <div className="my-auto justify-center align-middle flex flex-col space-y-3">
+          <a className="hover:scale-125 transition-all ease-out my-auto py-2 duration-500" href="mailto:mr.luckysharma7@gmail.com">{props.hospital.email}</a>
+          <a className="hover:scale-125 transition-all ease-out my-auto duration-1000" href="call:7877997488">call {props.hospital.contact_Number}</a>
         </div>
-       
+
       </div>
 
       <div className="contact flex-col flex w-1/2 md:w-auto m-auto space-y-2 mt-1 px-1">
         <h2 className="text-sm mt-3 border-b border-b-stone-100 sm:text-2xl">
           locations
         </h2>
-        <label >MirrorMed Hospital <br />
+        <label className="py-2" >{props.hospital.name} <br />
           123 Main Street
           <br />
           Anytown, CA 12345
@@ -33,9 +33,9 @@ const Footer = (props) => {
           quick links
         </h2>
         <Link to='/' className="hover:scale-125 transition-all ease-out"><a>Home</a></Link>
-      <Link to='/contact' className="hover:scale-125 transition-all ease-out"><a>Book Appointment</a></Link>
-      <Link to='/department' className="hover:scale-125 transition-all ease-out"><a>Department</a></Link>
-      <Link to='/gallary' className="hover:scale-125 transition-all ease-out"><a>Gallery</a></Link>
+        <Link to='/contact' className="hover:scale-125 transition-all ease-out"><a>Book Appointment</a></Link>
+        <Link to='/department' className="hover:scale-125 transition-all ease-out"><a>Department</a></Link>
+        <Link to='/gallary' className="hover:scale-125 transition-all ease-out"><a>Gallery</a></Link>
       </div>
       <div className=" flex-col flex w-1/2 md:w-auto m-auto space-y-2 mt-1 px-1">
         <h2 className="text-sm mt-3 border-b border-b-stone-100 sm:text-2xl">

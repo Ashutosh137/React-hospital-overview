@@ -3,7 +3,7 @@ body {
   
 }
 
-.home .img::before {
+.home::before {
   width: 100%;
   height: 100%; /* You should set a height value too */
   background-size: cover;
@@ -11,17 +11,13 @@ body {
   position: absolute;
   left: 0%;
   top: 0%;
+  opacity: 0.9;
   z-index: -1;
-
   background: url('../public/New-folder/building.jpg')  no-repeat center center/cover;
 }
 .home .img{
-  height: 75vh;
-
-  background-color: rgba(255, 255, 255, 0.2);
-}
-.home .div{
-  background-color: rgba(255, 255, 255, 0.4);
+  height: 80vh;
 
 }
+
 

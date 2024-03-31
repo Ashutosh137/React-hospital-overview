@@ -9,8 +9,8 @@ import department from "./data/department";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
 
-  let hospital = {
-    name: "MirrorMed",
+  const hospital = {
+    name: "MirrorMed hospital",
     contact_Number: "7877997488",
     email: "mr.luckysharma7@gmail.com",
     facebook: "https://www.facebook.com/",
@@ -20,10 +20,9 @@ function App() {
   };
 
 
-  return (<>
-      <Router>
-    <div className="block sm:mx-10 p-2 ">
-
+  return (
+    <Router>
+      <div className="block sm:mx-10 p-2 ">
         <Navbar name={hospital.name} />
         <Routes>
           <Route path="/contact" element={<Contact />} />
@@ -31,11 +30,9 @@ function App() {
           <Route path="/" element={<Home name={hospital.name} />}></Route>
           <Route path="/department" element={<Department department={department} />} />
         </Routes>
-    </div>
+      </div>
       <Footer hospital={hospital} />
-      </Router>
-  </>
-
+    </Router>
   );
 }
 

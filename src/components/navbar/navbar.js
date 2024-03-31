@@ -15,9 +15,9 @@ const Navbar = (props) => {
       className="navbar flex-row flex-wrap text-center justify-between capitalize space-x-2
         text-xs border-black sm:text-xl space-y-3 xl:text-2xl py-4 "
     >
-      <div className="font-bold md:mb-5 flex space-x-1 m-auto p-2 text-2xl sm:text-3xl">
+      <div className="font-[600] hover:text-sky-900 md:mb-5 hover:scale-105 transition-all ease-out duration-500 flex space-x-1 m-auto p-2 text-2xl sm:text-3xl">
         <ChairIcon style={{ fontSize: '2rem' }} />
-        <Link to="/">{props.name} hospital</Link>
+        <Link to="/">{props.name} </Link>
       </div>
       {menu==='hidden' && <div  onClick={() => {
         setmenu('flex')
